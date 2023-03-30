@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto';font-size: 14px;
+    background-color: #f7f7f7;
+    }
+      
+    h1 {
+        color: #00a1fc;
+    }
+      
+    p {
+        font-family: 'Roboto';
+        font-size: 12px;
+        color: #4b4b4b;
+}
+
+header{
+    color: #4b4b4b;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: small;
+  }
+ 
+  /* Quando já clicamos no link anteriormente */
+  a:visited {
+    color: #4b4b4b;
+  }
+ 
+  /* Quando passamos o mouse sobre o link */
+  a:hover {
+    color: #00a1fc;
+  }
+ 
+  /* Quando clicamos no link */
+  a:active {
+    color: #27cc4d;
+  }
+
+
+/*
+.disciplinas {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:12px;
+    margin-top:12px;
+}
+.disciplinas:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+*/

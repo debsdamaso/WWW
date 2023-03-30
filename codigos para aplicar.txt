@@ -1,0 +1,94 @@
+Background:
+background-color: #ff0000;
+background: #fff url(/img/ottawa.jpg) center center/cover no-repeat;
+
+Canto arredondado:
+border-radius: 10px;
+
+Transparencia:
+opacity: 0.5;
+
+Text color:
+color: #ff0000;
+
+Colunas para texto:
+column-count: 2;
+
+Lista:
+list-style: circle inside;
+
+Transition:
+
+Dentro do main
+opacity: 1;
+transition: opacity 1s ease 0s;
+
+Dentro do :hover
+opacity: 0.6;
+
+===================== HTML =====================
+
+Botão no HTML Call to action:
+<button type="button" name="myButton">
+	Click me!
+</button>
+
+Data:
+<input type="date" name="myInput" value="2023-03-30">
+
+E-mail:
+<input type="email" name="myInput" placeholder="your@email.com" size="30" required>
+
+Upload:
+<input type="file" name="myInput" accept="image/*, .pdf" required>
+
+Senha:
+<input type="password" name="myInput" size="20" required>
+
+Texto
+<input type="text" name="myInput" size="30" required>
+
+Submit:
+<input type="submit" name="myInput" value="Submit">
+
+Texto em area:
+<textarea name="myTextarea" placeholder="Your message here" cols="20" rows="10" minlength="10" maxlength="500" required></textarea>
+
+Code:
+<code>console.log('It works')</code>
+
+Clique para ver FAQ:
+<details>
+	<summary>Details</summary>
+	Something small enough to escape casual notice.
+</details>
+
+iframe:
+<iframe name="myIFrame" src="https://example.com" height="200" width="200"></iframe>
+
+=============================================
+
+ /* Links não visitados */
+  a:link {
+    transition: all 0.3s ease; /*Aplicamos um efeito de transição*/
+    text-decoration: none; /*Removemos o sublinhado*/
+    font-size: 1.3em; /*Alteramos o tamanho da fonte*/
+    font-family: verdana; /*Mudamos a fonte padrão para verdana*/
+    padding:10px; /*Adicionamos um espaçamento de 10px em TOP, BOTTOM, RIGHT e LEFT*/
+    color: #00a2ff; /*Mudamos a cor para Azul*/
+  }
+ 
+  /* Quando já clicamos no link anteriormente */
+  a:visited {
+    color: #fa8900; /*Mudamos a cor para Laranja*/
+  }
+ 
+  /* Quando passamos o mouse sobre o link */
+  a:hover {
+    color: #d000ff; /*Mudamos a cor para Rosa*/
+  }
+ 
+  /* Quando clicamos no link */
+  a:active {
+    color: #27cc4d; /*Mudamos a cor para Verde*/
+  }
