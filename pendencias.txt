@@ -2,6 +2,11 @@ P0
 ===================================
 ICONE CHATBOT EM TODAS AS PÁGINAS
 FORMULÁRIO NA PÁGINA DE CONTATO
+CRIAR ORGANOGRAMA DAS PAGINAS, EXPLICANDO A ROTA DO USUÁRIO
+
+CRIAR PROJETO 01 COM 03 PAGINAS
+CRIAR PROJETO 02 ORIGINAL
+CRIAR PROJETO 03 COM VERSIONAMENTOS
 
 P1
 ===================================
@@ -15,7 +20,13 @@ CONTEÚDO DAS PÁGINAS
 P3
 ===================================
 REFERENCIAR AS IMAGENS
+UML DAS AULAS
 
 P4
 ===================================
 REVISÃO
+
+P5
+===================================
+REVISÃO V2
+ARQUIVOS PARA DOWNLOAD
